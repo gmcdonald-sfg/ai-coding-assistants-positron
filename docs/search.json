@@ -88,7 +88,7 @@
     "href": "index.html#how-does-these-all-play-together",
     "title": "AI coding assistants for Positron",
     "section": "How does these all play together?",
-    "text": "How does these all play together?\n\nThey all have pros/cons, and different use cases where they shine\nHere’s one approach: mix-and-match\n\nPositron Databot for initial exploratory data analysis\nPositron Assistant for general day-to-day data science analysis and coding tasks\nClaude Code for large-scale code refactoring, package development, documentation, or non-data-science coding tasks\nGitHub Copilot for in-line code suggestions, pull requests, commit messages, code reviews, etc\n\nBut really, it’s up to you!"
+    "text": "How does these all play together?\n\nThey all have pros/cons, shine in different use cases\nFeel free to mix-and-match. Here’s one approach:\n\nPositron Databot for initial exploratory data analysis\nPositron Assistant for general day-to-day data science analysis and coding tasks\nClaude Code for large-scale code refactoring, package development, documentation, non-data-science tasks\nGitHub Copilot for in-line code suggestions, pull requests, commit messages, code reviews, etc\n\nBut really, it’s up to you!"
   },
   {
     "objectID": "index.html#best-practices",

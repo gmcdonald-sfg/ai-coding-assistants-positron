@@ -119,11 +119,11 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 
 ## How does these all play together?
 
-- They all have pros/cons, and different use cases where they shine
-- Here's one approach: *mix-and-match*
+- They all have pros/cons, shine in different use cases
+- Feel free to *mix-and-match*. Here's one approach:
   - Positron Databot for initial exploratory data analysis
   - Positron Assistant for general day-to-day data science analysis and coding tasks
-  - Claude Code for large-scale code refactoring, package development, documentation, or non-data-science coding tasks
+  - Claude Code for large-scale code refactoring, package development, documentation,  non-data-science tasks
   - GitHub Copilot for in-line code suggestions, pull requests, commit messages, code reviews, etc
 - But really, it's up to you!
 
