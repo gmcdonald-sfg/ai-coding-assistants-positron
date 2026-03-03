@@ -80,7 +80,7 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 - General coding assistant for wide range of tasks
 - Similar to Claude Caude, but specifically tailored for data science workflows, with specific R and Python tooling
 - Can be used for code generation, debugging, documentation, and more
-- Has access to your codebase and file structure, so it can provide more context-aware assistance
+- Aware of your "system" state: codebase, file structure, etc
 - Also aware of your "live" environment state: loaded data frames, plot pane, console history, etc
 - Can be used in  **ask**, **edit**, **agent**, or **plan** mode
 - **BYOK**: Can use various LLM backends (Claude, GPT, etc.)
@@ -99,7 +99,7 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 - Claude Code has a VS Code extenion, which is similar to Positron Assistant: both provide agentic capabilities
 - Assistant is tailored for data science with R and Python; Claude Code more towards general software engineering
 - Claude Code can be used in VS Code or Positron; Assistant can only be used in Positron (and is tightly integrated)
-- Claude Code isn't as aware of your "live" environment state: loaded data frames, plot pane, console history, etc
+- Claude Code isn't as aware of your "live" environment state
 - Assistant is BYOK; Claude Code only uses Claude models
 - **Important**: Both Positon Assistant and Databot require an API key; so this works with pay-as-you-go Claude, but currently *not* with Claude Pro monthly subscription (that might change though)
 
@@ -119,13 +119,13 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 
 ## How does these all play together?
 
-- They all have pros/cons, and different use cases where they shine. Feel free to mix-and-match!
-- Here's one approach:
+- They all have pros/cons, and different use cases where they shine
+- Here's one approach: *mix-and-match*
   - Positron Databot for initial exploratory data analysis
   - Positron Assistant for general day-to-day data science analysis and coding tasks
   - Claude Code for large-scale code refactoring, package development, documentation, or non-data-science coding tasks
   - GitHub Copilot for in-line code suggestions, pull requests, commit messages, code reviews, etc
-- But really, it's up to you! Experiment with different tools and find what works best for
+- But really, it's up to you!
 
 ## Best Practices
 
