@@ -98,8 +98,7 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 
 - Claude Code has a VS Code extenion, which is similar to Positron Assistant: both provide agentic capabilities
 - Assistant is tailored for data science with R and Python; Claude Code more towards general software engineering
-- Claude Code can be used in VS Code or Positron; Assistant can only be used in Positron (and is tightly integrated)
-- Claude Code isn't as aware of your "live" environment state
+- Claude Code has great awareness of "system" state, but not as much "live" environment state awareness
 - Assistant is BYOK; Claude Code only uses Claude models
 - **Important**: Both Positon Assistant and Databot require an API key; so this works with pay-as-you-go Claude, but currently *not* with Claude Pro monthly subscription (that might change though)
 
