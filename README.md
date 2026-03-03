@@ -10,7 +10,7 @@ This presentation is designed for researchers at the environmental Markets Lab (
 
 ### View the Presentation
 
-Visit the live presentation at: [[[[https://gmcdonald-sfg.github.io/ai-for-research](https://gmcdonald-sfg.github.io/ai-coding-agents-positron)](https://gmcdonald-sfg.github.io/ai-coding-agents-positron)(https://gmcdonald-sfg.github.io/ai-for-research/)
+Visit the live presentation at: [https://gmcdonald-sfg.github.io/ai-coding-assistants-positron](https://gmcdonald-sfg.github.io/ai-coding-assistants-positron)
 
 ### Local Development
 
