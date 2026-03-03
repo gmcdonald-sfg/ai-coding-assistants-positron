@@ -1,6 +1,6 @@
 ---
 title: "AI coding assistants for Positron"
-subtitle: "emLab Land and People lab meeting"
+subtitle: "emLab Study Club"
 author: "Gavin McDonald"
 date: "March 10, 2026"
 format:
@@ -21,6 +21,16 @@ format:
 - I'm no AI expert - but rather just an enthuastic (and optimistically skeptical) user
 - I also really want to hear from *you*
 
+## What exactly is Positron?
+
+- Developed by **Posit** team (formerly **RStudio**)
+- It is a modern, polygot successor to RStudio IDE
+- Built-in functionality for data science workflows
+- Current focus on R and Python
+- It is fundamentally a VS Code fork
+  - VS Code extensions work in Positron
+  - Positron has additional extensions as well
+
 ## What exactly is a coding assistant?
 
 - Integrated directly into your IDE
@@ -35,7 +45,7 @@ format:
 
 1. Positron Databot (*BYOK*)
 2. Positron Assistant (*BYOK*)
-3. Claude Code (Claude models)
+3. Claude Code (*Claude models*)
 
 ## What LLM backend is best for coding?
 
@@ -47,9 +57,16 @@ Check out [Claude's Constitution](https://www.anthropic.com/constitution)
 
 Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsletter/) and [R Benchmark tests](https://skaltman-model-eval-app.share.connect.posit.cloud)
 
+## Data privacy
+
+- Always check the data privacy policies of any AI tool you use!
+- If using an agent that is *BYOK*, you're also subject to that backend's data privacy policies
+- Claude Code has [settings](https://privacy.claude.com/en/collections/10672565-data-handling-retention) for data retention, whether your code is used to train models, etc
+
+
 ## Positron Databot
 
-- Developed by **Posit** team (formerly RStudio) for **Positron** (modern polygot successor to RStudio IDE; VS Code fork)
+- Developed by **Posit** team (formerly **RStudio**)
 - Allows you to interact with your data using natural language
 - Designed for exploratory data analysis (can do ML too)
 - Designed with responsible, **human-in-the-loop** use in mind ([Databot is not a flotation device](https://posit.co/blog/databot-is-not-a-flotation-device/))
@@ -64,8 +81,8 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 - Similar to Claude Caude, but specifically tailored for data science workflows, with specific R and Python tooling
 - Can be used for code generation, debugging, documentation, and more
 - Has access to your codebase and file structure, so it can provide more context-aware assistance
-- **BYOK**: Can use various LLM backends (Claude, GPT, etc.)
 - Can be used in  **ask**, **edit**, **agent**, or **plan** mode
+- **BYOK**: Can use various LLM backends (Claude, GPT, etc.)
 
 ## Which LLM backend for Positron Databot and Assistant: Claude or GitHub Copilot with Claude?
 
@@ -92,38 +109,11 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 
 ## What about GitHub Copilot?
 
-- GitHub Copilot for project management and collaboration
-  - Can generate issues, pull requests, documentation, etc
+- As seen above, can be used as an LLM backend for Positron Assistant and Databot, giving you access to Claude models (and others). But also...
+  - Can do in-like code suggestions
+  - Can generate pull requests, commit messages, etc
   - Can be used to review code and suggest improvements (either reviewing PRs, or even reviewing code *before* it's committed!)
-  - Can help with project organization and workflow
-  - Can be done either on GitHub website, or directly through Positron or VS Code IDE
-
-- Various other AI-powered tools in Slack, Asana, Zoom, etc
-
-
-
-## A bit on different LLM options
-- **Google's Gemini**
-  - General purpose, good for lit review, idea generation, etc
-  - Excellent data privacy protections through UCSB license
-
-- **Anthropic's Claude**
-  - Excellent for coding
-  - Direct agentic integration with your IDE
-
-- **GitHub Copilot**
-  - Designed for coding, integration with your IDE and Github
-  - Can use many LLM backends (Gemini, Claude, GPT, etc.)
-
-
-## Data privacy
-
-- Always check the data privacy policies of any AI tool you use
-- UCSB's Gemini license has excellent protections
-    - [Approved for P1/P2/P3/P4 sensitive data](https://cio.ucsb.edu/artificial-intelligence/genai-tools-ucsb)
-    - Your data is not used to train models
-    - Available for faculty and staff
-- Claude Code has [settings](https://privacy.claude.com/en/collections/10672565-data-handling-retention) for data retention, whether your code is used to train models, etc
+  - If it can be done on github.com, chaces are you can do it directly inside Positron
 
 ## Best Practices
 
@@ -138,9 +128,7 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 
 ## Thanks!
 
-
 *This presentation created with Quarto, Positron, and GitHub Copilot*
-
 
 **Reach out:** 
 Gavin McDonald

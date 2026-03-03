@@ -129,7 +129,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">AI coding assistants for Positron</h1>
-  <p class="subtitle">emLab Land and People lab meeting</p>
+  <p class="subtitle">emLab Study Club</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -152,6 +152,20 @@ Gavin McDonald
 <li>I also really want to hear from <em>you</em></li>
 </ul>
 </section>
+<section id="what-exactly-is-positron" class="slide level2">
+<h2>What exactly is Positron?</h2>
+<ul>
+<li>Developed by <strong>Posit</strong> team (formerly <strong>RStudio</strong>)</li>
+<li>It is a modern, polygot successor to RStudio IDE</li>
+<li>Built-in functionality for data science workflows</li>
+<li>Current focus on R and Python</li>
+<li>It is fundamentally a VS Code fork
+<ul>
+<li>VS Code extensions work in Positron</li>
+<li>Positron has additional extensions as well</li>
+</ul></li>
+</ul>
+</section>
 <section id="what-exactly-is-a-coding-assistant" class="slide level2">
 <h2>What exactly is a coding assistant?</h2>
 <ul>
@@ -171,7 +185,7 @@ Gavin McDonald
 <ol type="1">
 <li>Positron Databot (<em>BYOK</em>)</li>
 <li>Positron Assistant (<em>BYOK</em>)</li>
-<li>Claude Code (Claude models)</li>
+<li>Claude Code (<em>Claude models</em>)</li>
 </ol>
 </section>
 <section id="what-llm-backend-is-best-for-coding" class="slide level2">
@@ -181,10 +195,18 @@ Gavin McDonald
 <img data-src="images/llm_r_comparison.png" class="r-stretch"><p>Check out <a href="https://www.anthropic.com/constitution">Claude’s Constitution</a></p>
 <p>Keep an eye on Posit’s <a href="https://posit.co/blog/2026-02-13-ai-newsletter/">AI Newsletter</a> and <a href="https://skaltman-model-eval-app.share.connect.posit.cloud">R Benchmark tests</a></p>
 </section>
+<section id="data-privacy" class="slide level2">
+<h2>Data privacy</h2>
+<ul>
+<li>Always check the data privacy policies of any AI tool you use!</li>
+<li>If using an agent that is <em>BYOK</em>, you’re also subject to that backend’s data privacy policies</li>
+<li>Claude Code has <a href="https://privacy.claude.com/en/collections/10672565-data-handling-retention">settings</a> for data retention, whether your code is used to train models, etc</li>
+</ul>
+</section>
 <section id="positron-databot" class="slide level2">
 <h2>Positron Databot</h2>
 <ul>
-<li>Developed by <strong>Posit</strong> team (formerly RStudio) for <strong>Positron</strong> (modern polygot successor to RStudio IDE; VS Code fork)</li>
+<li>Developed by <strong>Posit</strong> team (formerly <strong>RStudio</strong>)</li>
 <li>Allows you to interact with your data using natural language</li>
 <li>Designed for exploratory data analysis (can do ML too)</li>
 <li>Designed with responsible, <strong>human-in-the-loop</strong> use in mind (<a href="https://posit.co/blog/databot-is-not-a-flotation-device/">Databot is not a flotation device</a>)</li>
@@ -201,8 +223,8 @@ Gavin McDonald
 <li>Similar to Claude Caude, but specifically tailored for data science workflows, with specific R and Python tooling</li>
 <li>Can be used for code generation, debugging, documentation, and more</li>
 <li>Has access to your codebase and file structure, so it can provide more context-aware assistance</li>
-<li><strong>BYOK</strong>: Can use various LLM backends (Claude, GPT, etc.)</li>
 <li>Can be used in <strong>ask</strong>, <strong>edit</strong>, <strong>agent</strong>, or <strong>plan</strong> mode</li>
+<li><strong>BYOK</strong>: Can use various LLM backends (Claude, GPT, etc.)</li>
 </ul>
 </section>
 <section id="which-llm-backend-for-positron-databot-and-assistant-claude-or-github-copilot-with-claude" class="slide level2">
@@ -236,47 +258,13 @@ Gavin McDonald
 <section id="what-about-github-copilot" class="slide level2">
 <h2>What about GitHub Copilot?</h2>
 <ul>
-<li>GitHub Copilot for project management and collaboration
+<li>As seen above, can be used as an LLM backend for Positron Assistant and Databot, giving you access to Claude models (and others). But also…
 <ul>
-<li>Can generate issues, pull requests, documentation, etc</li>
+<li>Can do in-like code suggestions</li>
+<li>Can generate pull requests, commit messages, etc</li>
 <li>Can be used to review code and suggest improvements (either reviewing PRs, or even reviewing code <em>before</em> it’s committed!)</li>
-<li>Can help with project organization and workflow</li>
-<li>Can be done either on GitHub website, or directly through Positron or VS Code IDE</li>
+<li>If it can be done on github.com, chaces are you can do it directly inside Positron</li>
 </ul></li>
-<li>Various other AI-powered tools in Slack, Asana, Zoom, etc</li>
-</ul>
-</section>
-<section id="a-bit-on-different-llm-options" class="slide level2">
-<h2>A bit on different LLM options</h2>
-<ul>
-<li><strong>Google’s Gemini</strong>
-<ul>
-<li>General purpose, good for lit review, idea generation, etc</li>
-<li>Excellent data privacy protections through UCSB license</li>
-</ul></li>
-<li><strong>Anthropic’s Claude</strong>
-<ul>
-<li>Excellent for coding</li>
-<li>Direct agentic integration with your IDE</li>
-</ul></li>
-<li><strong>GitHub Copilot</strong>
-<ul>
-<li>Designed for coding, integration with your IDE and Github</li>
-<li>Can use many LLM backends (Gemini, Claude, GPT, etc.)</li>
-</ul></li>
-</ul>
-</section>
-<section id="data-privacy" class="slide level2">
-<h2>Data privacy</h2>
-<ul>
-<li>Always check the data privacy policies of any AI tool you use</li>
-<li>UCSB’s Gemini license has excellent protections
-<ul>
-<li><a href="https://cio.ucsb.edu/artificial-intelligence/genai-tools-ucsb">Approved for P1/P2/P3/P4 sensitive data</a></li>
-<li>Your data is not used to train models</li>
-<li>Available for faculty and staff</li>
-</ul></li>
-<li>Claude Code has <a href="https://privacy.claude.com/en/collections/10672565-data-handling-retention">settings</a> for data retention, whether your code is used to train models, etc</li>
 </ul>
 </section>
 <section id="best-practices" class="slide level2">
