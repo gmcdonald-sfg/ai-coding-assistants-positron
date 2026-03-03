@@ -1,0 +1,19 @@
+/* Custom CSS for presentation */
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: #003660; /* UCSB navy blue */
+}
+
+.reveal a {
+  color: #047C91; /* emLab teal */
+}
+
+.reveal a:hover {
+  color: #005f6b;
+}

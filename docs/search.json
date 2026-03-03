@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "AI Tools for Research",
+    "section": "Welcome",
+    "text": "Welcome\n\nAI is transforming the way research is done\nAI is rapidly evolving - tools and capability changing daily (this talk will probably be out of date by next week!)\nToday I’ll focus on tools I’ve personally used, but this is by no means exhaustive\nSince tools are changing so rapidly, we’ll also talk about best practices\nI’m no AI expert - but rather just an enthuastic (and optimistically skeptical) user\nI also really want to hear from you"
+  },
+  {
+    "objectID": "index.html#ai-can-help-with-every-stage-of-the-research-process",
+    "href": "index.html#ai-can-help-with-every-stage-of-the-research-process",
+    "title": "AI Tools for Research",
+    "section": "AI can help with every stage of the research process",
+    "text": "AI can help with every stage of the research process\n\nIdea generation\nLiterature review\nData analysis\nWriting and communication\nCollaboration and project management"
+  },
+  {
+    "objectID": "index.html#a-bit-on-different-llm-options",
+    "href": "index.html#a-bit-on-different-llm-options",
+    "title": "AI Tools for Research",
+    "section": "A bit on different LLM options",
+    "text": "A bit on different LLM options\n\nGoogle’s Gemini\n\nGeneral purpose, good for lit review, idea generation, etc\nExcellent data privacy protections through UCSB license\n\nAnthropic’s Claude\n\nExcellent for coding\nDirect agentic integration with your IDE\n\nGitHub Copilot\n\nDesigned for coding, integration with your IDE and Github\nCan use many LLM backends (Gemini, Claude, GPT, etc.)"
+  },
+  {
+    "objectID": "index.html#what-llm-is-best-for-coding",
+    "href": "index.html#what-llm-is-best-for-coding",
+    "title": "AI Tools for Research",
+    "section": "What LLM is best for coding?",
+    "text": "What LLM is best for coding?\nShort answer: Claude (for R, at least for now…)\n\nCheck out Claude’s Constitution\nKeep an eye on Posit’s AI Newsletter and R Benchmark tests"
+  },
+  {
+    "objectID": "index.html#data-privacy",
+    "href": "index.html#data-privacy",
+    "title": "AI Tools for Research",
+    "section": "Data privacy",
+    "text": "Data privacy\n\nAlways check the data privacy policies of any AI tool you use\nUCSB’s Gemini license has excellent protections\n\nApproved for P1/P2/P3/P4 sensitive data\nYour data is not used to train models\nAvailable for faculty and staff\n\nClaude Code has settings for data retention, whether your code is used to train models, etc"
+  },
+  {
+    "objectID": "index.html#research-process-15-idea-generation",
+    "href": "index.html#research-process-15-idea-generation",
+    "title": "AI Tools for Research",
+    "section": "Research process (1/5): Idea Generation",
+    "text": "Research process (1/5): Idea Generation\n\nGemini, Claude, GPT\nGemini Deep Research\nGemini Gems"
+  },
+  {
+    "objectID": "index.html#research-process-25-literature-review",
+    "href": "index.html#research-process-25-literature-review",
+    "title": "AI Tools for Research",
+    "section": "Research process (2/5): Literature Review",
+    "text": "Research process (2/5): Literature Review\n\nGemini Deep Research\nGemini Gems\nGemini Notebook LM\nGoogle Scholar Labs\nSpecialized tools: Research Rabbit, Nature Research Assistant, Elicit, Consensus"
+  },
+  {
+    "objectID": "index.html#research-process-35-data-analysis",
+    "href": "index.html#research-process-35-data-analysis",
+    "title": "AI Tools for Research",
+    "section": "Research process (3/5): Data analysis",
+    "text": "Research process (3/5): Data analysis\nCoding agents: GitHub Copilot, Positron Assistant, Positron Databot, Claude Code, etc\n\nIntegrated directly into your IDE\nHave access to your codebase, file structure\nCan operate in different modes: ask, edit, or agent, depending on your needs and comfort level\nGreat for data science workflows (but anything really)\nOften “BYO-key”\n\nCan use any LLM backend - Claude, Gemini, etc.\nYou’re also subject to that backend’s data privacy policies"
+  },
+  {
+    "objectID": "index.html#positron-databot",
+    "href": "index.html#positron-databot",
+    "title": "AI Tools for Research",
+    "section": "Positron Databot",
+    "text": "Positron Databot\n\nDeveloped by Posit team (formerly RStudio) for Positron (modern polygot successor to RStudio IDE; VS Code fork)\nAllows you to interact with your data using natural language\nDesigned for exploratory data analysis (can do ML too)\nDesigned with responsible, human-in-the-loop use in mind (Databot is not a flotation device)\nUses a WEAR loop: Write code, Execute, Analyze, Regroup\n\n“In my 30-year career writing software professionally, Databot is both the most exciting software I’ve worked on, and also the most dangerous.” –Joe Cheng, Posit CTO"
+  },
+  {
+    "objectID": "index.html#positron-assistant",
+    "href": "index.html#positron-assistant",
+    "title": "AI Tools for Research",
+    "section": "Positron Assistant",
+    "text": "Positron Assistant\n\nDeveloped by Posit team for Positron\nGeneral coding assistant for wide range of tasks\nSimilar to Claude Caude, but specifically tailored for data science workflows, with specific R and Python tooling\nCan be used for code generation, debugging, documentation, and more\nHas access to your codebase and file structure, so it can provide more context-aware assistance\nBYOK: Can use various LLM backends (Claude, GPT, etc.)\nCan be used in ask, edit, or agent mode"
+  },
+  {
+    "objectID": "index.html#which-llm-backend-for-positron-assistant-and-databot-claude-or-github-copilot-with-claude",
+    "href": "index.html#which-llm-backend-for-positron-assistant-and-databot-claude-or-github-copilot-with-claude",
+    "title": "AI Tools for Research",
+    "section": "Which LLM backend for Positron Assistant and Databot: Claude or GitHub Copilot with Claude?",
+    "text": "Which LLM backend for Positron Assistant and Databot: Claude or GitHub Copilot with Claude?\n\nClaude requires a paid account; Copilot has options\nCopilot gives access to Claude models, but also others\nUsing Claude directly gives you access to full context window - it is capped when going through Copilot\nUsing Claude directly is faster\nUsing Claude through Copilot can quickly exhaust your Copliot credits (at least wotj the education account)"
+  },
+  {
+    "objectID": "index.html#now-what-about-claude-code",
+    "href": "index.html#now-what-about-claude-code",
+    "title": "AI Tools for Research",
+    "section": "Now what about Claude Code?",
+    "text": "Now what about Claude Code?\n\nClaude Code has a VS Code extenion, which is similar to Positron Assistant: both provide agentic capabilities\nAssistant is tailored for data science with R and Python; Claude Code more towards general software engineering\nClaude Code can be used in VS Code or Positron; Assistant can only be used in Positron (and is tightly integrated)\nAssistant is BYOK; Claude Code only uses Claude models\nImportant: Both Positon Assistant and Databot require an API key; so this works with pay-as-you-go Claude, but currently not with Claude Pro monthly subscription (that might change though)"
+  },
+  {
+    "objectID": "index.html#getting-fancy-customizing-your-ai-coding-assistants",
+    "href": "index.html#getting-fancy-customizing-your-ai-coding-assistants",
+    "title": "AI Tools for Research",
+    "section": "Getting fancy: Customizing your AI coding assistants",
+    "text": "Getting fancy: Customizing your AI coding assistants\n\ninstructions.md: Specify custom “always-on” instructions: coding standards, style guides, etc to use across all scripts (specify the how) (also called claude.md or positron.md)\nprompts.md: Define reusables prompts for tasks you commonly ask your assistant to do (e.g., “write a function that does X”, etc) (specify the what)\nagents.md: Create custom agent personas that can perform specific tasks, such as data cleaning, EDA, or model training (specify the who)"
+  },
+  {
+    "objectID": "index.html#research-process-45-writing-and-communication",
+    "href": "index.html#research-process-45-writing-and-communication",
+    "title": "AI Tools for Research",
+    "section": "Research process (4/5): Writing and Communication",
+    "text": "Research process (4/5): Writing and Communication\n\nGemini, Claude, GPT\nSpecialized tools: Research Rabbit, Nature Research Assistant, Elicit, Consensus\nGemini Nano Banana for image generation (e.g., flowcharts, technical diagrams, etc)\n\n“Nano Banana Pro is the first image model that can sometimes generate coherent technical diagrams”\n- Sara Altman and Simon Couch, Posit (source)"
+  },
+  {
+    "objectID": "index.html#research-process-55-collaboration-and-project-management",
+    "href": "index.html#research-process-55-collaboration-and-project-management",
+    "title": "AI Tools for Research",
+    "section": "Research process (5/5): Collaboration and Project Management",
+    "text": "Research process (5/5): Collaboration and Project Management\n\nGitHub Copilot for project management and collaboration\n\nCan generate issues, pull requests, documentation, etc\nCan be used to review code and suggest improvements (either reviewing PRs, or even reviewing code before it’s committed!)\nCan help with project organization and workflow\nCan be done either on GitHub website, or directly through Positron or VS Code IDE\n\nVarious other AI-powered tools in Slack, Asana, Zoom, etc"
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "AI Tools for Research",
+    "section": "Resources",
+    "text": "Resources\n\nGenAI Tools at UCSB\nFree Copilot course from GitHub\nGetting started with Positron Assistant\nIntroducing Databot: An AI assistant for exploratory data analysis"
+  },
+  {
+    "objectID": "index.html#examples",
+    "href": "index.html#examples",
+    "title": "AI Tools for Research",
+    "section": "Examples",
+    "text": "Examples\n\nVincent Arel-Bundock’s Use LLMs to learn about any chapter of my 𝑀𝑜𝑑𝑒𝑙 𝑡𝑜 𝑀𝑒𝑎𝑛𝑖𝑛𝑔 book, or any function in the marginaleffects package for R or Python. (light lift)\nPedro Sant’Anna’s Comprehensive Guide to Multi-Agent Slide Development, Code Review, and Research Automation (heavy lift)\n\n(Thanks, Robert!)"
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "AI Tools for Research",
+    "section": "Getting Started",
+    "text": "Getting Started\nRecommended First Steps:\n\nTry Gemini for literature summaries\nBecome familiar with GitHub Copilot\nTry a coding assistant for your next data science task\nTry making your own custom instructions file or Gem"
+  },
+  {
+    "objectID": "index.html#best-practices",
+    "href": "index.html#best-practices",
+    "title": "AI Tools for Research",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nRemain accountable\nVerify AI-generated content - keep a human in the loop\nCheck sources\nCite usage appropriately\nMaintain data privacy (as needed)\nStay critical, skeptical, open-minded, and curious"
+  },
+  {
+    "objectID": "index.html#thanks",
+    "href": "index.html#thanks",
+    "title": "AI Tools for Research",
+    "section": "Thanks!",
+    "text": "Thanks!\nThis presentation created with Quarto, Positron, and GitHub Copilot\nReach out: Gavin McDonald\ngmcdonald@bren.ucsb.edu"
+  },
+  {
+    "objectID": "index.html#discussion",
+    "href": "index.html#discussion",
+    "title": "AI Tools for Research",
+    "section": "Discussion",
+    "text": "Discussion\n\nWhat AI tools are you currently using in your research?\nWhat challenges have you faced with AI tools?\nHow can we use AI ethically and responsibly for environmental research?\nWhat are your best practices for using AI?"
+  }
+]

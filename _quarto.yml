@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "AI Tools for Academic Research"
+  site-url: https://gmcdonald-sfg.github.io/ai-for-research/
+  repo-url: https://github.com/gmcdonald-sfg/ai-for-research
+  page-navigation: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
