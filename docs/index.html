@@ -10,8 +10,8 @@
   <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="Gavin McDonald">
-  <meta name="dcterms.date" content="2026-02-26">
-  <title>AI Tools for Academic Research – AI Tools for Research</title>
+  <meta name="dcterms.date" content="2026-03-10">
+  <title>AI Tools for Academic Research – AI coding assistants for Positron</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -128,7 +128,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">AI Tools for Research</h1>
+  <h1 class="title">AI coding assistants for Positron</h1>
   <p class="subtitle">emLab Land and People lab meeting</p>
 
 <div class="quarto-title-authors">
@@ -139,28 +139,112 @@ Gavin McDonald
 </div>
 </div>
 
-  <p class="date">2026-02-26</p>
+  <p class="date">2026-03-10</p>
 </section>
 <section id="welcome" class="slide level2">
 <h2>Welcome</h2>
 <ul>
-<li>AI is transforming the way research is done</li>
+<li>AI is transforming the way coding is done</li>
 <li>AI is <em>rapidly</em> evolving - tools and capability changing daily (<strong>this talk will probably be out of date by next week!</strong>)</li>
-<li>Today I’ll focus on tools I’ve personally used, but this is by no means exhaustive</li>
+<li>Today I’ll focus on coding assistants I’ve personally used, but this is by no means exhaustive</li>
 <li>Since tools are changing so rapidly, we’ll also talk about best practices</li>
 <li>I’m no AI expert - but rather just an enthuastic (and optimistically skeptical) user</li>
 <li>I also really want to hear from <em>you</em></li>
 </ul>
 </section>
-<section id="ai-can-help-with-every-stage-of-the-research-process" class="slide level2">
-<h2>AI can help with every stage of the research process</h2>
+<section id="what-exactly-is-a-coding-assistant" class="slide level2">
+<h2>What exactly is a coding assistant?</h2>
+<ul>
+<li>Integrated directly into your IDE</li>
+<li>Has access to your codebase, file structure, etc</li>
+<li>Can operate in different modes: <strong>ask</strong>, <strong>edit</strong>, <strong>agent</strong>, or <strong>plan</strong>, depending on your needs and comfort level</li>
+<li>Great for data science workflows (but anything really - machine learning, app development, etc)</li>
+<li>Often <strong>“BYO-key”</strong>
+<ul>
+<li>Can use any LLM backend - Claude, Gemini, etc.</li>
+<li>You’re also subject to that backend’s data privacy policies</li>
+</ul></li>
+</ul>
+</section>
+<section id="coding-agent-options-in-positron" class="slide level2">
+<h2>Coding agent options in Positron</h2>
 <ol type="1">
-<li>Idea generation</li>
-<li>Literature review</li>
-<li>Data analysis</li>
-<li>Writing and communication</li>
-<li>Collaboration and project management</li>
+<li>Positron Databot (<em>BYOK</em>)</li>
+<li>Positron Assistant (<em>BYOK</em>)</li>
+<li>Claude Code (Claude models)</li>
 </ol>
+</section>
+<section id="what-llm-backend-is-best-for-coding" class="slide level2">
+<h2>What LLM backend is best for coding?</h2>
+<p>Short answer: <strong>Claude</strong> (<em>for R, at least for now…</em>)</p>
+
+<img data-src="images/llm_r_comparison.png" class="r-stretch"><p>Check out <a href="https://www.anthropic.com/constitution">Claude’s Constitution</a></p>
+<p>Keep an eye on Posit’s <a href="https://posit.co/blog/2026-02-13-ai-newsletter/">AI Newsletter</a> and <a href="https://skaltman-model-eval-app.share.connect.posit.cloud">R Benchmark tests</a></p>
+</section>
+<section id="positron-databot" class="slide level2">
+<h2>Positron Databot</h2>
+<ul>
+<li>Developed by <strong>Posit</strong> team (formerly RStudio) for <strong>Positron</strong> (modern polygot successor to RStudio IDE; VS Code fork)</li>
+<li>Allows you to interact with your data using natural language</li>
+<li>Designed for exploratory data analysis (can do ML too)</li>
+<li>Designed with responsible, <strong>human-in-the-loop</strong> use in mind (<a href="https://posit.co/blog/databot-is-not-a-flotation-device/">Databot is not a flotation device</a>)</li>
+<li>Uses a <strong>WEAR</strong> loop: <strong>W</strong>rite code, <strong>E</strong>xecute, <strong>A</strong>nalyze, <strong>R</strong>egroup</li>
+<li><strong>BYOK</strong>: Can use various LLM backends (Claude, GPT, etc.)</li>
+</ul>
+<p><em>“In my 30-year career writing software professionally, Databot is both the most exciting software I’ve worked on, and also the most dangerous.” –Joe Cheng, Posit CTO</em></p>
+</section>
+<section id="positron-assistant" class="slide level2">
+<h2>Positron Assistant</h2>
+<ul>
+<li>Developed by <strong>Posit</strong> team for <strong>Positron</strong></li>
+<li>General coding assistant for wide range of tasks</li>
+<li>Similar to Claude Caude, but specifically tailored for data science workflows, with specific R and Python tooling</li>
+<li>Can be used for code generation, debugging, documentation, and more</li>
+<li>Has access to your codebase and file structure, so it can provide more context-aware assistance</li>
+<li><strong>BYOK</strong>: Can use various LLM backends (Claude, GPT, etc.)</li>
+<li>Can be used in <strong>ask</strong>, <strong>edit</strong>, <strong>agent</strong>, or <strong>plan</strong> mode</li>
+</ul>
+</section>
+<section id="which-llm-backend-for-positron-databot-and-assistant-claude-or-github-copilot-with-claude" class="slide level2">
+<h2>Which LLM backend for Positron Databot and Assistant: Claude or GitHub Copilot with Claude?</h2>
+<ul>
+<li>Claude requires a paid account; Copilot has options</li>
+<li>Copilot gives access to Claude models, but also others</li>
+<li>Using Claude directly gives you access to full context window - it is capped when going through Copilot</li>
+<li>Using Claude directly is faster</li>
+<li>Using Claude through Copilot can quickly exhaust your Copliot credits (at least wotj the education account)</li>
+</ul>
+</section>
+<section id="claude-code" class="slide level2">
+<h2>Claude Code</h2>
+<ul>
+<li>Claude Code has a VS Code extenion, which is similar to Positron Assistant: both provide agentic capabilities</li>
+<li>Assistant is tailored for data science with R and Python; Claude Code more towards general software engineering</li>
+<li>Claude Code can be used in VS Code or Positron; Assistant can only be used in Positron (and is tightly integrated)</li>
+<li>Assistant is BYOK; Claude Code only uses Claude models</li>
+<li><strong>Important</strong>: Both Positon Assistant and Databot require an API key; so this works with pay-as-you-go Claude, but currently <em>not</em> with Claude Pro monthly subscription (that might change though)</li>
+</ul>
+</section>
+<section id="getting-fancy-customizing-your-ai-coding-assistants" class="slide level2">
+<h2>Getting fancy: Customizing your AI coding assistants</h2>
+<ul>
+<li><strong>instructions.md</strong>: Specify custom “always-on” instructions: coding standards, style guides, etc to use across all scripts (specify the <em>how</em>) (also called <strong>claude.md</strong> or <strong>positron.md</strong>)</li>
+<li><strong>prompts.md</strong>: Define reusables prompts for tasks you commonly ask your assistant to do (e.g., “write a function that does X”, etc) (specify the <em>what</em>)</li>
+<li><strong>agents.md</strong>: Create custom agent personas that can perform specific tasks, such as data cleaning, EDA, or model training (specify the <em>who</em>)</li>
+</ul>
+</section>
+<section id="what-about-github-copilot" class="slide level2">
+<h2>What about GitHub Copilot?</h2>
+<ul>
+<li>GitHub Copilot for project management and collaboration
+<ul>
+<li>Can generate issues, pull requests, documentation, etc</li>
+<li>Can be used to review code and suggest improvements (either reviewing PRs, or even reviewing code <em>before</em> it’s committed!)</li>
+<li>Can help with project organization and workflow</li>
+<li>Can be done either on GitHub website, or directly through Positron or VS Code IDE</li>
+</ul></li>
+<li>Various other AI-powered tools in Slack, Asana, Zoom, etc</li>
+</ul>
 </section>
 <section id="a-bit-on-different-llm-options" class="slide level2">
 <h2>A bit on different LLM options</h2>
@@ -182,13 +266,6 @@ Gavin McDonald
 </ul></li>
 </ul>
 </section>
-<section id="what-llm-is-best-for-coding" class="slide level2">
-<h2>What LLM is best for coding?</h2>
-<p>Short answer: <strong>Claude</strong> (<em>for R, at least for now…</em>)</p>
-
-<img data-src="images/llm_r_comparison.png" class="r-stretch"><p>Check out <a href="https://www.anthropic.com/constitution">Claude’s Constitution</a></p>
-<p>Keep an eye on Posit’s <a href="https://posit.co/blog/2026-02-13-ai-newsletter/">AI Newsletter</a> and <a href="https://skaltman-model-eval-app.share.connect.posit.cloud">R Benchmark tests</a></p>
-</section>
 <section id="data-privacy" class="slide level2">
 <h2>Data privacy</h2>
 <ul>
@@ -201,140 +278,6 @@ Gavin McDonald
 </ul></li>
 <li>Claude Code has <a href="https://privacy.claude.com/en/collections/10672565-data-handling-retention">settings</a> for data retention, whether your code is used to train models, etc</li>
 </ul>
-</section>
-<section id="research-process-15-idea-generation" class="slide level2">
-<h2>Research process (1/5): Idea Generation</h2>
-<ul>
-<li>Gemini, Claude, GPT</li>
-<li>Gemini Deep Research</li>
-<li>Gemini Gems</li>
-</ul>
-</section>
-<section id="research-process-25-literature-review" class="slide level2">
-<h2>Research process (2/5): Literature Review</h2>
-<ul>
-<li>Gemini Deep Research</li>
-<li>Gemini Gems</li>
-<li>Gemini Notebook LM</li>
-<li>Google Scholar Labs</li>
-<li>Specialized tools: Research Rabbit, Nature Research Assistant, Elicit, Consensus</li>
-</ul>
-</section>
-<section id="research-process-35-data-analysis" class="slide level2">
-<h2>Research process (3/5): Data analysis</h2>
-<p><strong>Coding agents: GitHub Copilot, Positron Assistant, Positron Databot, Claude Code, etc</strong></p>
-<ul>
-<li>Integrated directly into your IDE</li>
-<li>Have access to your codebase, file structure</li>
-<li>Can operate in different modes: <strong>ask</strong>, <strong>edit</strong>, or <strong>agent</strong>, depending on your needs and comfort level</li>
-<li>Great for data science workflows (but anything really)</li>
-<li>Often <strong>“BYO-key”</strong>
-<ul>
-<li>Can use any LLM backend - Claude, Gemini, etc.</li>
-<li>You’re also subject to that backend’s data privacy policies</li>
-</ul></li>
-</ul>
-</section>
-<section id="positron-databot" class="slide level2">
-<h2>Positron Databot</h2>
-<ul>
-<li>Developed by <strong>Posit</strong> team (formerly RStudio) for <strong>Positron</strong> (modern polygot successor to RStudio IDE; VS Code fork)</li>
-<li>Allows you to interact with your data using natural language</li>
-<li>Designed for exploratory data analysis (can do ML too)</li>
-<li>Designed with responsible, <strong>human-in-the-loop</strong> use in mind (<a href="https://posit.co/blog/databot-is-not-a-flotation-device/">Databot is not a flotation device</a>)</li>
-<li>Uses a <strong>WEAR</strong> loop: <strong>W</strong>rite code, <strong>E</strong>xecute, <strong>A</strong>nalyze, <strong>R</strong>egroup</li>
-</ul>
-<p><em>“In my 30-year career writing software professionally, Databot is both the most exciting software I’ve worked on, and also the most dangerous.” –Joe Cheng, Posit CTO</em></p>
-</section>
-<section id="positron-assistant" class="slide level2">
-<h2>Positron Assistant</h2>
-<ul>
-<li>Developed by <strong>Posit</strong> team for <strong>Positron</strong></li>
-<li>General coding assistant for wide range of tasks</li>
-<li>Similar to Claude Caude, but specifically tailored for data science workflows, with specific R and Python tooling</li>
-<li>Can be used for code generation, debugging, documentation, and more</li>
-<li>Has access to your codebase and file structure, so it can provide more context-aware assistance</li>
-<li><strong>BYOK</strong>: Can use various LLM backends (Claude, GPT, etc.)</li>
-<li>Can be used in <strong>ask</strong>, <strong>edit</strong>, or <strong>agent</strong> mode</li>
-</ul>
-</section>
-<section id="which-llm-backend-for-positron-assistant-and-databot-claude-or-github-copilot-with-claude" class="slide level2">
-<h2>Which LLM backend for Positron Assistant and Databot: Claude or GitHub Copilot with Claude?</h2>
-<ul>
-<li>Claude requires a paid account; Copilot has options</li>
-<li>Copilot gives access to Claude models, but also others</li>
-<li>Using Claude directly gives you access to full context window - it is capped when going through Copilot</li>
-<li>Using Claude directly is faster</li>
-<li>Using Claude through Copilot can quickly exhaust your Copliot credits (at least wotj the education account)</li>
-</ul>
-</section>
-<section id="now-what-about-claude-code" class="slide level2">
-<h2>Now what about Claude Code?</h2>
-<ul>
-<li>Claude Code has a VS Code extenion, which is similar to Positron Assistant: both provide agentic capabilities</li>
-<li>Assistant is tailored for data science with R and Python; Claude Code more towards general software engineering</li>
-<li>Claude Code can be used in VS Code or Positron; Assistant can only be used in Positron (and is tightly integrated)</li>
-<li>Assistant is BYOK; Claude Code only uses Claude models</li>
-<li><strong>Important</strong>: Both Positon Assistant and Databot require an API key; so this works with pay-as-you-go Claude, but currently <em>not</em> with Claude Pro monthly subscription (that might change though)</li>
-</ul>
-</section>
-<section id="getting-fancy-customizing-your-ai-coding-assistants" class="slide level2">
-<h2>Getting fancy: Customizing your AI coding assistants</h2>
-<ul>
-<li><strong>instructions.md</strong>: Specify custom “always-on” instructions: coding standards, style guides, etc to use across all scripts (specify the <em>how</em>) (also called <strong>claude.md</strong> or <strong>positron.md</strong>)</li>
-<li><strong>prompts.md</strong>: Define reusables prompts for tasks you commonly ask your assistant to do (e.g., “write a function that does X”, etc) (specify the <em>what</em>)</li>
-<li><strong>agents.md</strong>: Create custom agent personas that can perform specific tasks, such as data cleaning, EDA, or model training (specify the <em>who</em>)</li>
-</ul>
-</section>
-<section id="research-process-45-writing-and-communication" class="slide level2">
-<h2>Research process (4/5): Writing and Communication</h2>
-<ul>
-<li>Gemini, Claude, GPT</li>
-<li>Specialized tools: Research Rabbit, Nature Research Assistant, Elicit, Consensus</li>
-<li>Gemini Nano Banana for image generation (e.g., flowcharts, technical diagrams, etc)</li>
-</ul>
-<p><em>“Nano Banana Pro is the first image model that can sometimes generate coherent technical diagrams”</em></p>
-<p><em>- Sara Altman and Simon Couch, Posit (<a href="https://posit.co/blog/2025-12-05-ai-newsletter/">source</a>)</em></p>
-</section>
-<section id="research-process-55-collaboration-and-project-management" class="slide level2">
-<h2>Research process (5/5): Collaboration and Project Management</h2>
-<ul>
-<li>GitHub Copilot for project management and collaboration
-<ul>
-<li>Can generate issues, pull requests, documentation, etc</li>
-<li>Can be used to review code and suggest improvements (either reviewing PRs, or even reviewing code <em>before</em> it’s committed!)</li>
-<li>Can help with project organization and workflow</li>
-<li>Can be done either on GitHub website, or directly through Positron or VS Code IDE</li>
-</ul></li>
-<li>Various other AI-powered tools in Slack, Asana, Zoom, etc</li>
-</ul>
-</section>
-<section id="resources" class="slide level2">
-<h2>Resources</h2>
-<ul>
-<li><a href="https://cio.ucsb.edu/artificial-intelligence/genai-tools-ucsb">GenAI Tools at UCSB</a></li>
-<li><a href="https://github.com/orgs/community/discussions/184217">Free Copilot course from GitHub</a></li>
-<li><a href="https://positron.posit.co/assistant-getting-started.html">Getting started with Positron Assistant</a></li>
-<li><a href="https://posit.co/blog/introducing-databot/">Introducing Databot: An AI assistant for exploratory data analysis</a></li>
-</ul>
-</section>
-<section id="examples" class="slide level2">
-<h2>Examples</h2>
-<ul>
-<li>Vincent Arel-Bundock’s <a href="https://bsky.app/profile/vincentab.bsky.social/post/3mequg4gzts27">Use LLMs to learn about any chapter of my 𝑀𝑜𝑑𝑒𝑙 𝑡𝑜 𝑀𝑒𝑎𝑛𝑖𝑛𝑔 book, or any function in the <code>marginaleffects</code> package for R or Python.</a> <strong>(light lift)</strong></li>
-<li>Pedro Sant’Anna’s <a href="https://psantanna.com/claude-code-my-workflow/workflow-guide.html">Comprehensive Guide to Multi-Agent Slide Development, Code Review, and Research Automation</a> <strong>(heavy lift)</strong></li>
-</ul>
-<p><em>(Thanks, Robert!)</em></p>
-</section>
-<section id="getting-started" class="slide level2">
-<h2>Getting Started</h2>
-<p><strong>Recommended First Steps:</strong></p>
-<ol type="1">
-<li>Try Gemini for literature summaries</li>
-<li>Become familiar with GitHub Copilot</li>
-<li>Try a coding assistant for your next data science task</li>
-<li>Try making your own custom instructions file or Gem</li>
-</ol>
 </section>
 <section id="best-practices" class="slide level2">
 <h2>Best Practices</h2>
@@ -352,15 +295,6 @@ Gavin McDonald
 <p><em>This presentation created with Quarto, Positron, and GitHub Copilot</em></p>
 <p><strong>Reach out:</strong> Gavin McDonald</p>
 <p><a href="mailto:%20gmcdonald@bren.ucsb.edu">gmcdonald@bren.ucsb.edu</a></p>
-</section>
-<section id="discussion" class="slide level2">
-<h2>Discussion</h2>
-<ul>
-<li>What AI tools are you currently using in your research?</li>
-<li>What challenges have you faced with AI tools?</li>
-<li>How can we use AI ethically and responsibly for environmental research?</li>
-<li>What are your best practices for using AI?</li>
-</ul>
 
 
 </section>
