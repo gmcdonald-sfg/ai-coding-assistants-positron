@@ -161,7 +161,7 @@ Gavin McDonald
 <li>Current focus on R and Python</li>
 <li>It is fundamentally a VS Code fork
 <ul>
-<li>VS Code extensions work in Positron</li>
+<li>Almost all VS Code extensions work in Positron</li>
 <li>Positron has additional extensions as well</li>
 </ul></li>
 </ul>
@@ -223,6 +223,7 @@ Gavin McDonald
 <li>Similar to Claude Caude, but specifically tailored for data science workflows, with specific R and Python tooling</li>
 <li>Can be used for code generation, debugging, documentation, and more</li>
 <li>Has access to your codebase and file structure, so it can provide more context-aware assistance</li>
+<li>Also aware of your “live” environment state: loaded data frames, plot pane, console history, etc</li>
 <li>Can be used in <strong>ask</strong>, <strong>edit</strong>, <strong>agent</strong>, or <strong>plan</strong> mode</li>
 <li><strong>BYOK</strong>: Can use various LLM backends (Claude, GPT, etc.)</li>
 </ul>
@@ -243,6 +244,7 @@ Gavin McDonald
 <li>Claude Code has a VS Code extenion, which is similar to Positron Assistant: both provide agentic capabilities</li>
 <li>Assistant is tailored for data science with R and Python; Claude Code more towards general software engineering</li>
 <li>Claude Code can be used in VS Code or Positron; Assistant can only be used in Positron (and is tightly integrated)</li>
+<li>Claude Code isn’t as aware of your “live” environment state: loaded data frames, plot pane, console history, etc</li>
 <li>Assistant is BYOK; Claude Code only uses Claude models</li>
 <li><strong>Important</strong>: Both Positon Assistant and Databot require an API key; so this works with pay-as-you-go Claude, but currently <em>not</em> with Claude Pro monthly subscription (that might change though)</li>
 </ul>

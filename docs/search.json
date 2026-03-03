@@ -11,7 +11,7 @@
     "href": "index.html#what-exactly-is-positron",
     "title": "AI coding assistants for Positron",
     "section": "What exactly is Positron?",
-    "text": "What exactly is Positron?\n\nDeveloped by Posit team (formerly RStudio)\nIt is a modern, polygot successor to RStudio IDE\nBuilt-in functionality for data science workflows\nCurrent focus on R and Python\nIt is fundamentally a VS Code fork\n\nVS Code extensions work in Positron\nPositron has additional extensions as well"
+    "text": "What exactly is Positron?\n\nDeveloped by Posit team (formerly RStudio)\nIt is a modern, polygot successor to RStudio IDE\nBuilt-in functionality for data science workflows\nCurrent focus on R and Python\nIt is fundamentally a VS Code fork\n\nAlmost all VS Code extensions work in Positron\nPositron has additional extensions as well"
   },
   {
     "objectID": "index.html#what-exactly-is-a-coding-assistant",
@@ -53,7 +53,7 @@
     "href": "index.html#positron-assistant",
     "title": "AI coding assistants for Positron",
     "section": "Positron Assistant",
-    "text": "Positron Assistant\n\nDeveloped by Posit team for Positron\nGeneral coding assistant for wide range of tasks\nSimilar to Claude Caude, but specifically tailored for data science workflows, with specific R and Python tooling\nCan be used for code generation, debugging, documentation, and more\nHas access to your codebase and file structure, so it can provide more context-aware assistance\nCan be used in ask, edit, agent, or plan mode\nBYOK: Can use various LLM backends (Claude, GPT, etc.)"
+    "text": "Positron Assistant\n\nDeveloped by Posit team for Positron\nGeneral coding assistant for wide range of tasks\nSimilar to Claude Caude, but specifically tailored for data science workflows, with specific R and Python tooling\nCan be used for code generation, debugging, documentation, and more\nHas access to your codebase and file structure, so it can provide more context-aware assistance\nAlso aware of your “live” environment state: loaded data frames, plot pane, console history, etc\nCan be used in ask, edit, agent, or plan mode\nBYOK: Can use various LLM backends (Claude, GPT, etc.)"
   },
   {
     "objectID": "index.html#which-llm-backend-for-positron-databot-and-assistant-claude-or-github-copilot-with-claude",
@@ -67,7 +67,7 @@
     "href": "index.html#claude-code",
     "title": "AI coding assistants for Positron",
     "section": "Claude Code",
-    "text": "Claude Code\n\nClaude Code has a VS Code extenion, which is similar to Positron Assistant: both provide agentic capabilities\nAssistant is tailored for data science with R and Python; Claude Code more towards general software engineering\nClaude Code can be used in VS Code or Positron; Assistant can only be used in Positron (and is tightly integrated)\nAssistant is BYOK; Claude Code only uses Claude models\nImportant: Both Positon Assistant and Databot require an API key; so this works with pay-as-you-go Claude, but currently not with Claude Pro monthly subscription (that might change though)"
+    "text": "Claude Code\n\nClaude Code has a VS Code extenion, which is similar to Positron Assistant: both provide agentic capabilities\nAssistant is tailored for data science with R and Python; Claude Code more towards general software engineering\nClaude Code can be used in VS Code or Positron; Assistant can only be used in Positron (and is tightly integrated)\nClaude Code isn’t as aware of your “live” environment state: loaded data frames, plot pane, console history, etc\nAssistant is BYOK; Claude Code only uses Claude models\nImportant: Both Positon Assistant and Databot require an API key; so this works with pay-as-you-go Claude, but currently not with Claude Pro monthly subscription (that might change though)"
   },
   {
     "objectID": "index.html#getting-fancy-customizing-your-ai-coding-assistants",
