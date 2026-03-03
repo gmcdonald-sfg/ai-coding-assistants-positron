@@ -1,4 +1,4 @@
-# AI coding assistants for Positron for Academic Research
+# AI coding assistants for Positron 
 
 A Quarto-based presentation summarizing AI coding assistents for Postiron.
 
