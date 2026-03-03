@@ -117,6 +117,16 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
   - Can be used to review code and suggest improvements (either reviewing PRs, or even reviewing code *before* it's committed!)
   - If it can be done on github.com, chaces are you can do it directly inside Positron
 
+## How does these all play together?
+
+- They all have pros/cons, and different use cases where they shine. Feel free to mix-and-match!
+- Here's one approach:
+  - Positron Databot for initial exploratory data analysis
+  - Positron Assistant for general day-to-day data science analysis and coding tasks
+  - Claude Code for large-scale code refactoring, package development, documentation, or non-data-science coding tasks
+  - GitHub Copilot for in-line code suggestions, pull requests, commit messages, code reviews, etc
+- But really, it's up to you! Experiment with different tools and find what works best for
+
 ## Best Practices
 
 1. **Remain** accountable
