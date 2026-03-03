@@ -1,16 +1,16 @@
-# AI Tools for Academic Research
+# AI coding assistants for Positron for Academic Research
 
-A Quarto-based presentation summarizing AI tools for academic research, focused on data science, fisheries, remote sensing, machine learning, economics, and econometrics.
+A Quarto-based presentation summarizing AI coding assistents for Postiron.
 
 ## 🎯 Purpose
 
-This presentation is designed for researchers at the environmental Markets Lab (emLab) at UCSB and others interested in leveraging AI tools for academic research.
+This presentation is designed for researchers at the environmental Markets Lab (emLab) at UCSB and others interested in using AI coding assistants for Positron.
 
 ## 🚀 Quick Start
 
 ### View the Presentation
 
-Visit the live presentation at: [https://gmcdonald-sfg.github.io/ai-for-research/](https://gmcdonald-sfg.github.io/ai-for-research/)
+Visit the live presentation at: [[[[https://gmcdonald-sfg.github.io/ai-for-research](https://gmcdonald-sfg.github.io/ai-coding-agents-positron)](https://gmcdonald-sfg.github.io/ai-coding-agents-positron)(https://gmcdonald-sfg.github.io/ai-for-research/)
 
 ### Local Development
 
