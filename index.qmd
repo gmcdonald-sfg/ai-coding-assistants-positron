@@ -34,7 +34,8 @@ format:
 ## What exactly is a coding assistant?
 
 - Integrated directly into your IDE
-- Has access to your codebase, file structure, etc
+- Most have "system" state awareness (codebase, file structure, etc)
+- Some *also have* "live environment" state awareness (loaded data frames, plot pane, console history, etc)
 - Can operate in different modes: **ask**, **edit**, **agent**, or **plan**, depending on your needs and comfort level
 - Great for data science workflows (but anything really - machine learning, app development, etc)
 - Often **“BYO-key”**
@@ -43,9 +44,15 @@ format:
 
 ## Coding agent options in Positron
 
-1. Positron Databot (*BYOK*)
-2. Positron Assistant (*BYOK*)
-3. Claude Code (*Claude models*)
+- **Positron Databot**
+  - System state *and* live environment state awareness
+  - *BYOK* (access to many LLM backends)
+- **Positron Assistant**
+  - System state *and* live environment state awareness
+  - *BYOK* (access to many LLM backends)
+- **Claude Code**
+  - System state awareness
+  - Access to Claude models
 
 ## What LLM backend is best for coding?
 

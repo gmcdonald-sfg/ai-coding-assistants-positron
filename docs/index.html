@@ -170,7 +170,8 @@ Gavin McDonald
 <h2>What exactly is a coding assistant?</h2>
 <ul>
 <li>Integrated directly into your IDE</li>
-<li>Has access to your codebase, file structure, etc</li>
+<li>Most have “system” state awareness (codebase, file structure, etc)</li>
+<li>Some <em>also have</em> “live environment” state awareness (loaded data frames, plot pane, console history, etc)</li>
 <li>Can operate in different modes: <strong>ask</strong>, <strong>edit</strong>, <strong>agent</strong>, or <strong>plan</strong>, depending on your needs and comfort level</li>
 <li>Great for data science workflows (but anything really - machine learning, app development, etc)</li>
 <li>Often <strong>“BYO-key”</strong>
@@ -182,11 +183,23 @@ Gavin McDonald
 </section>
 <section id="coding-agent-options-in-positron" class="slide level2">
 <h2>Coding agent options in Positron</h2>
-<ol type="1">
-<li>Positron Databot (<em>BYOK</em>)</li>
-<li>Positron Assistant (<em>BYOK</em>)</li>
-<li>Claude Code (<em>Claude models</em>)</li>
-</ol>
+<ul>
+<li><strong>Positron Databot</strong>
+<ul>
+<li>System state <em>and</em> live environment state awareness</li>
+<li><em>BYOK</em> (access to many LLM backends)</li>
+</ul></li>
+<li><strong>Positron Assistant</strong>
+<ul>
+<li>System state <em>and</em> live environment state awareness</li>
+<li><em>BYOK</em> (access to many LLM backends)</li>
+</ul></li>
+<li><strong>Claude Code</strong>
+<ul>
+<li>System state awareness</li>
+<li>Access to Claude models</li>
+</ul></li>
+</ul>
 </section>
 <section id="what-llm-backend-is-best-for-coding" class="slide level2">
 <h2>What LLM backend is best for coding?</h2>
