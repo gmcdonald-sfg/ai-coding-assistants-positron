@@ -1,75 +1,81 @@
-# AI coding assistants for Positron 
+# AI Coding Assistants for Positron
 
-A Quarto-based presentation summarizing AI coding assistents for Postiron.
+A Quarto RevealJS presentation on AI coding assistants available in Positron, created for the [emLab](https://emlab.ucsb.edu/) Study Club at UC Santa Barbara.
 
-## 🎯 Purpose
+## Overview
 
-This presentation is designed for researchers at the environmental Markets Lab (emLab) at UCSB and others interested in using AI coding assistants for Positron.
+This presentation covers:
 
-## 🚀 Quick Start
+- What Positron is and how it differs from RStudio
+- The landscape of AI coding assistants available in Positron (Positron Assistant, Positron Databot, Claude Code, GitHub Copilot)
+- How to choose between LLM backends (Claude, Copilot, etc) and their trade-offs
+- Billing models for Claude API vs. Claude Code vs. GitHub Copilot
+- Advanced customization via `instructions.md`, `prompts.md`, `agents.md`, and `skills.md`
+- Best practices for responsible, human-in-the-loop AI use
 
-### View the Presentation
+## View the Presentation
 
-Visit the live presentation at: [https://gmcdonald-sfg.github.io/ai-coding-assistants-positron](https://gmcdonald-sfg.github.io/ai-coding-assistants-positron)
+**Live:** [https://gmcdonald-sfg.github.io/ai-coding-assistants-positron](https://gmcdonald-sfg.github.io/ai-coding-assistants-positron)
 
-### Local Development
+## Local Development
 
-#### Prerequisites
+### Prerequisites
 
-- [R](https://www.r-project.org/) (version 4.0 or higher)
-- [Quarto](https://quarto.org/docs/get-started/) (version 1.4 or higher)
+- [Quarto](https://quarto.org/docs/get-started/) ≥ 1.4
+- [R](https://www.r-project.org/) ≥ 4.0
 
-#### Render Locally
+### Render & Preview
 
 ```bash
-# Render the presentation
+# One-off render
 quarto render
 
-# Preview with live reload
+# Live-reload preview
 quarto preview
 ```
 
-The rendered HTML will be in the `docs/` directory.
+Rendered output is written to `docs/`.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
-├── index.qmd              # Main presentation file
-├── _quarto.yml            # Quarto configuration
-├── styles.css             # Custom styling
-├── .github/workflows/     # GitHub Actions for auto-publishing
-└── README.md              # This file
+├── index.qmd                  # Slide content (RevealJS)
+├── _quarto.yml                # Quarto project configuration
+├── dracula.scss               # Custom Dracula theme for RevealJS
+├── styles.css                 # Additional CSS overrides
+├── images/                    # Static images used in slides
+├── docs/                      # Rendered HTML output (GitHub Pages)
+└── .github/workflows/
+    └── publish.yml            # CI: render + deploy to GitHub Pages on push to main
 ```
 
-## 🔄 Automatic Publishing
+## Automatic Publishing
 
-This repository uses GitHub Actions to automatically render and publish the presentation to GitHub Pages when changes are pushed to the `main` branch.
+Pushing to `main` triggers a GitHub Actions workflow that:
 
-## ✏️ Editing the Presentation
+1. Renders the Quarto project with Quarto 1.4 and R 4.3
+2. Uploads the `docs/` directory as a Pages artifact
+3. Deploys to GitHub Pages
 
-1. Edit `index.qmd` to modify content
-2. Update `_quarto.yml` for configuration changes
-3. Customize `styles.css` for styling
-4. Commit and push to `main` branch
-5. GitHub Actions will automatically build and deploy
+## Editing
 
-## 🎨 Customization
+| What you want to change | Where to edit |
+|---|---|
+| Slide content | `index.qmd` |
+| RevealJS theme / colors | `dracula.scss` |
+| Additional CSS | `styles.css` |
+| Quarto project settings | `_quarto.yml` |
+| CI/CD pipeline | `.github/workflows/publish.yml` |
 
-- **Theme**: Modify the `theme` in `index.qmd` (options: beige, blood, dark, league, moon, night, serif, simple, sky, solarized)
-- **Colors**: Edit `styles.css` to match your branding
-- **Content**: Add or remove slides in `index.qmd`
+## Resources
 
-## 📚 Resources
-
-- [Quarto Documentation](https://quarto.org/)
 - [Quarto Presentations](https://quarto.org/docs/presentations/)
-- [RevealJS Features](https://quarto.org/docs/presentations/revealjs/)
+- [RevealJS in Quarto](https://quarto.org/docs/presentations/revealjs/)
+- [Positron IDE](https://positron.posit.co/)
+- [Posit AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsletter/)
+- [R LLM Benchmark](https://skaltman-model-eval-app.share.connect.posit.cloud)
 
-## 🏛️ About emLab
+## License
 
-The environmental Markets Lab (emLab) at UC Santa Barbara is dedicated to using economics and data science to improve environmental outcomes.
-
-## 📝 License
-
-This project is open source and available for educational purposes.
+Open source, available for educational purposes.
