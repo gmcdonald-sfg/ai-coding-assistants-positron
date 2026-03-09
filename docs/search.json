@@ -77,18 +77,18 @@
     "text": "So how does billing for Claude work?\n\nBoth Positon Assistant and Databot require an API key\n\nManaged through Claude Developer Platform: https://platform.claude.com\nPay-as-you-go for tokens\nAPI key support has been requested for monthly Claude Pro subscription, but not yet available\n\nClaude Code requires a monthly subscription\n\n$20/month for “Claude Pro”\nManaged through https://claude.ai\n\nThese are two separate billing systems!"
   },
   {
-    "objectID": "index.html#getting-fancy-customizing-your-ai-coding-assistants",
-    "href": "index.html#getting-fancy-customizing-your-ai-coding-assistants",
-    "title": "AI coding assistants for Positron",
-    "section": "Getting fancy: Customizing your AI coding assistants",
-    "text": "Getting fancy: Customizing your AI coding assistants\n\ninstructions.md: Specify custom “always-on” instructions: coding standards, style guides, etc to use across all scripts (specify the how) (also called claude.md or positron.md)\nprompts.md: Define reusables prompts for tasks you commonly ask your assistant to do (e.g., “write a function that does X”, etc) (specify the what)\nagents.md: Create custom agent personas that can perform specific tasks, such as data cleaning, EDA, or model training (specify the who)"
-  },
-  {
     "objectID": "index.html#what-about-github-copilot",
     "href": "index.html#what-about-github-copilot",
     "title": "AI coding assistants for Positron",
     "section": "What about GitHub Copilot?",
     "text": "What about GitHub Copilot?\n\nCan be used as an LLM backend for Positron Assistant and Databot, giving you access to Claude models (and others)\nCan do in-like code suggestions\nCan generate pull requests, commit messages, etc\nCan review code and suggest improvements (either reviewing PRs, or even code before it’s committed!)\nIf you can do it on github.com, chances are you can probably do it directly inside Positron or VS Code\nGitHub Copilot Pro has free educator accces for students and teachers (apply here)"
+  },
+  {
+    "objectID": "index.html#getting-fancy-customizing-your-ai-coding-assistants",
+    "href": "index.html#getting-fancy-customizing-your-ai-coding-assistants",
+    "title": "AI coding assistants for Positron",
+    "section": "Getting fancy: Customizing your AI coding assistants",
+    "text": "Getting fancy: Customizing your AI coding assistants\n\ninstructions.md: Specify custom “always-on” instructions: coding standards, style guides, etc to use across all scripts (specify the how) (also called claude.md or positron.md)\nprompts.md: Define reusables prompts for tasks you commonly ask your assistant to do (e.g., “write a function that does X”, etc) (specify the what)\nagents.md: Create custom agent personas that can perform specific tasks, such as data cleaning, EDA, or model training (specify the who)"
   },
   {
     "objectID": "index.html#how-does-these-all-play-together",

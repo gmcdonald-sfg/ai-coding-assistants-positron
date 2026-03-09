@@ -118,12 +118,6 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
   - Managed through [https://claude.ai](https://claude.ai)
 - *These are two separate billing systems!*
 
-## Getting fancy: Customizing your AI coding assistants
-
-- **instructions.md**: Specify custom "always-on" instructions: coding standards, style guides, etc to use across all scripts (specify the *how*) (also called **claude.md** or **positron.md**)
-- **prompts.md**: Define reusables prompts for tasks you commonly ask your assistant to do (e.g., "write a function that does X", etc) (specify the *what*)
-- **agents.md**: Create custom agent personas that can perform specific tasks, such as data cleaning, EDA, or model training (specify the *who*)
-
 ## What about GitHub Copilot?
 
 - Can be used as an LLM backend for Positron Assistant and Databot, giving you access to Claude models (and others)
@@ -132,6 +126,12 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 - Can review code and suggest improvements (either reviewing PRs, or even code *before* it's committed!)
 - If you can do it on [github.com](https://github.com), chances are you can probably do it directly inside Positron or VS Code
 - GitHub Copilot Pro has free educator accces for students and teachers ([apply here](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro))
+
+## Getting fancy: Customizing your AI coding assistants
+
+- **instructions.md**: Specify custom "always-on" instructions: coding standards, style guides, etc to use across all scripts (specify the *how*) (also called **claude.md** or **positron.md**)
+- **prompts.md**: Define reusables prompts for tasks you commonly ask your assistant to do (e.g., "write a function that does X", etc) (specify the *what*)
+- **agents.md**: Create custom agent personas that can perform specific tasks, such as data cleaning, EDA, or model training (specify the *who*)
 
 ## How does these all play together?
 
@@ -147,10 +147,8 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 
 1. **Remain** accountable
 2. **Verify** AI-generated content - *keep a human in the loop*
-
 3. **Check** sources
 3. **Cite** usage appropriately
-
 5. **Maintain** data privacy (as needed)
 6. **Stay** critical, skeptical, open-minded, and curious
 
