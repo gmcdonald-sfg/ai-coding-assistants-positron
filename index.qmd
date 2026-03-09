@@ -126,11 +126,11 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 
 ## What about GitHub Copilot?
 
-- As seen above, can be used as an LLM backend for Positron Assistant and Databot, giving you access to Claude models (and others). But also...
-  - Can do in-like code suggestions
-  - Can generate pull requests, commit messages, etc
-  - Can be used to review code and suggest improvements (either reviewing PRs, or even reviewing code *before* it's committed!)
-  - If it can be done on [github.com](https://github.com), chaces are you can do it directly inside Positron
+- Can be used as an LLM backend for Positron Assistant and Databot, giving you access to Claude models (and others)
+- Can do in-like code suggestions
+- Can generate pull requests, commit messages, etc
+- Can review code and suggest improvements (either reviewing PRs, or even code *before* it's committed!)
+- If you can do it on [github.com](https://github.com), chances are you can probably do it directly inside Positron or VS Code
 - GitHub Copilot Pro has free educator accces for students and teachers ([apply here](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro))
 
 ## How does these all play together?
