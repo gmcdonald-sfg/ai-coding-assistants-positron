@@ -131,7 +131,7 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 
 - **instructions.md**: Specify custom "always-on" instructions: coding standards, style guides, etc to use across all scripts (specify the *how*) (also called **claude.md** or **positron.md**)
 - **prompts.md**: Define reusables prompts for tasks you commonly ask your assistant to do (e.g., "write a function that does X", etc) (specify the *what*)
-- **agents.md**: Create custom agent personas that can perform specific tasks, such as data cleaning, EDA, or model training (specify the *who*)
+- **agents.md**: Create custom agent personas that can perform specific *skills* (defined in **skills.md**), such as data cleaning, EDA, or predictive modeling (specify the *who*)
 
 ## How does these all play together?
 
