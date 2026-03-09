@@ -18,7 +18,7 @@
     "href": "index.html#what-exactly-is-a-coding-assistant",
     "title": "AI coding assistants for Positron",
     "section": "What exactly is a coding assistant?",
-    "text": "What exactly is a coding assistant?\n\nIntegrated directly into your IDE\nMost have “system” state awareness (codebase, file structure, etc)\nSome also have “live environment” state awareness (loaded data frames, plot pane, console history, etc)\nCan operate in different modes: ask, edit, agent, or plan, depending on your needs and comfort level\nGreat for data science workflows (but anything really - machine learning, app development, etc)\nOften “BYO-key”\n\nCan use any LLM backend - Claude, Gemini, etc.\nYou’re also subject to that backend’s data privacy policies"
+    "text": "What exactly is a coding assistant?\n\nIntegrated directly into your IDE\nMost have “system” state awareness (codebase, file structure, etc)\nSome also have “live environment” state awareness (loaded data frames, plot pane, console history, etc)\nCan operate in different modes: ask, edit, agent, or plan, depending on your needs and comfort level\nGreat for data science workflows (but anything really)\nOften “BYO-key”: can use different LLM backends, such as Claude, GPT, etc."
   },
   {
     "objectID": "index.html#coding-agent-options-in-positron",

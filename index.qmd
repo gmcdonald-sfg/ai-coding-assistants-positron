@@ -37,10 +37,8 @@ format:
 - Most have "system" state awareness (codebase, file structure, etc)
 - Some *also have* "live environment" state awareness (loaded data frames, plot pane, console history, etc)
 - Can operate in different modes: **ask**, **edit**, **agent**, or **plan**, depending on your needs and comfort level
-- Great for data science workflows (but anything really - machine learning, app development, etc)
-- Often **“BYO-key”**
-  - Can use any LLM backend - Claude, Gemini, etc.
-  - You're also subject to that backend's data privacy policies
+- Great for data science workflows (but anything really)
+- Often **“BYO-key”**: can use different LLM backends, such as Claude, GPT, etc.
 
 ## Coding agent options in Positron
 
