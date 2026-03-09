@@ -105,7 +105,18 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 - Assistant is tailored for data science with R and Python; Claude Code more towards general software engineering
 - Claude Code has great awareness of "system" state, but not as much "live" environment state awareness
 - Assistant is BYOK; Claude Code only uses Claude models
-- **Important**: Both Positon Assistant and Databot require an API key; so this works with pay-as-you-go Claude, but currently *not* with Claude Pro monthly subscription (that might change though)
+
+## So how does billing for Claude work?
+
+
+- Both Positon Assistant and Databot require an API key
+  - Managed through Claude Developer Platform: [https://platform.claude.com](https://platform.claude.com)
+  - *Pay-as-you-go* for tokens
+  - API key support has been requested for monthly Claude Pro subscription, but *not* yet available
+- Claude Code requires a monthly subscription
+  - $20/month for "Claude Pro"
+  - Managed through [https://claude.ai](https://claude.ai)
+- *These are two separate billing systems!*
 
 ## Getting fancy: Customizing your AI coding assistants
 
@@ -119,7 +130,8 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
   - Can do in-like code suggestions
   - Can generate pull requests, commit messages, etc
   - Can be used to review code and suggest improvements (either reviewing PRs, or even reviewing code *before* it's committed!)
-  - If it can be done on github.com, chaces are you can do it directly inside Positron
+  - If it can be done on [github.com](https://github.com), chaces are you can do it directly inside Positron
+- GitHub Copilot Pro has free educator accces for students and teachers ([apply here](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro))
 
 ## How does these all play together?
 
