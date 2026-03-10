@@ -42,18 +42,15 @@ format:
 
 ## Coding agent options in Positron
 
-- **Positron Databot**
+- **Positron Databot** (*BYOK, many LLM backends*)
   - Tailored for R and Python, data science and ML
   - System state *and* live environment state awareness
-  - *BYOK* (access to many LLM backends)
-- **Positron Assistant**
+- **Positron Assistant** (*BYOK, many LLM backends*)
   - Tailored for R and Python, data science and ML
   - System state *and* live environment state awareness
-  - *BYOK* (access to many LLM backends)
-- **Claude Code**
+- **Claude Code** (*Claude models*)
   - Language agnostic, general software engineering
   - System state awareness
-  - Access to Claude models
 
 ## What LLM backend is best for coding?
 
@@ -90,7 +87,6 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 - Can be used for code generation, debugging, documentation, and more
 - Aware of your "system" state: codebase, file structure, etc
 - Also aware of your "live" environment state: loaded data frames, plot pane, console history, etc
-- Can be used in  **ask**, **edit**, **agent**, or **plan** mode
 - **BYOK**: Can use various LLM backends (Claude, GPT, etc.)
 
 ## Which LLM backend for Positron Databot and Assistant: Claude or GitHub Copilot with Claude?
@@ -99,7 +95,7 @@ Keep an eye on Posit's [AI Newsletter](https://posit.co/blog/2026-02-13-ai-newsl
 - Copilot gives access to Claude models, but also others
 - Using Claude directly gives you access to full context window - it is capped when going through Copilot
 - Using Claude directly is faster
-- Using Claude through Copilot can quickly exhaust your Copliot credits (at least wotj the education account)
+- Using Claude through Copilot can quickly exhaust your Copliot credits (at least with the education account)
 
 
 ## Claude Code
