@@ -43,12 +43,15 @@ format:
 ## Coding agent options in Positron
 
 - **Positron Databot**
+  - Tailored for R and Python, data science and ML
   - System state *and* live environment state awareness
   - *BYOK* (access to many LLM backends)
 - **Positron Assistant**
+  - Tailored for R and Python, data science and ML
   - System state *and* live environment state awareness
   - *BYOK* (access to many LLM backends)
 - **Claude Code**
+  - Language agnostic, general software engineering
   - System state awareness
   - Access to Claude models
 
